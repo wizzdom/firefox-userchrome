@@ -1,0 +1,23 @@
+/* Styling for DeepDark for Firefox 100
+/* Author: Stefano Rosselli
+*/
+
+@import url("resources/CSS/chrome.css");
+/* @import url("resources/CSS/tabs/tabs_on_bottom.css"); */
+
+/* Subthemes */
+/* @import url("resources/CSS/subthemes/graphite.css"); */
+@import url("resources/CSS/subthemes/eclipse.css");
+
+/* Highlight colors */
+/* @import url("resources/CSS/highlightColors/amberHighlight.css"); */
+/* @import url("resources/CSS/highlightColors/emeraldHighlight.css");*/
+/* @import url("resources/CSS/highlightColors/fuchsiaHighlight.css"); */
+@import url("resources/CSS/highlightColors/iceBlueHighlight.css");
+/* @import url("resources/CSS/highlightColors/purpleHighlight.css"); */
+/* @import url("resources/CSS/highlightColors/redHighlight.css"); */
+/* @import url("resources/CSS/highlightColors/turquoiseHighlight.css"); */
+
+
+@import url("verticalTabs.css");
+@import url("autoHideVerticalTabs.css");
