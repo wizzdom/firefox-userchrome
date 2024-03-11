@@ -1,6 +1,6 @@
-/* 
+/*
 Firefox `userChrome.css` for Tree Style Tab
-  
+
   * Auto-sliding draw for TST
   * Leaves 'pinned' and 'active' tabs visible in standard browser chrome
   * Leaves 'last-active' tabs visible for 3 minutes after becoming inactive
@@ -74,7 +74,7 @@ Firefox `userChrome.css` for Tree Style Tab
 
 /* Shrink sidebar until hovered */
 :root {
-  --thin-tab-width: 30px;
+  --thin-tab-width: 40px;
   --wide-tab-width: 250px;
 }
 #sidebar-box:not([sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]) {
@@ -84,7 +84,7 @@ Firefox `userChrome.css` for Tree Style Tab
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] {
   overflow: hidden !important;
   position: relative !important;
-  transition: all 300ms !important;
+  transition: all 200ms !important;
   /*transition: all 0ms 0s !important;*/
   min-width: var(--thin-tab-width) !important;
   max-width: var(--thin-tab-width) !important;
@@ -93,7 +93,7 @@ Firefox `userChrome.css` for Tree Style Tab
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"]:hover,
 #sidebar-box[sidebarcommand="treestyletab_piro_sakura_ne_jp-sidebar-action"] #sidebar {
   /*transition-delay: 0s !important;*/
-  transition: all 300ms !important;
+  transition: all 200ms !important;
   min-width: var(--wide-tab-width) !important;
   max-width: var(--wide-tab-width) !important;
   z-index: 1;
