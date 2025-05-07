@@ -1,0 +1,5 @@
+@-moz-document unobservable-document() {
+  .pdfViewer {
+    filter: invert(100%);
+  }
+}
