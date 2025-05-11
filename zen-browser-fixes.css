@@ -1,0 +1,40 @@
+menupopup>menuitem:not([generated]),
+menupopup>menu:not([generated]) {
+  padding-inline-start: 2.4em !important;
+  -moz-box-align: center !important;
+  min-height: 1.8em !important;
+}
+
+menuitem:not([generated]) .menu-iconic-left,
+menu:not([generated]) .menu-iconic-left {
+  min-width: 1.6em !important;
+  margin-inline-end: 0.4em !important;
+  display: -moz-box !important;
+  align-items: center !important;
+}
+
+/* menuitem:not([generated]) .menu-iconic-icon, */
+/* menu:not([generated]) .menu-iconic-icon { */
+/*   width: 16px !important; */
+/*   height: 16px !important; */
+/*   object-fit: contain !important; */
+/*   margin: 0 !important; */
+/* } */
+
+/* /* Top row: fix layout without breaking icons */
+*/
+/* menupopup>toolbarbutton { */
+/*   padding-block: 2px !important; */
+/*   padding-inline: 8px !important; */
+/*   min-height: 24px !important; */
+/*   display: -moz-box !important; */
+/*   -moz-box-align: center !important; */
+/* } */
+/**/
+/* /* Only adjust icon size if it’s visibly broken — comment out if not needed */
+*/
+/* menupopup>toolbarbutton .toolbarbutton-icon { */
+/*   max-width: 18px !important; */
+/*   max-height: 18px !important; */
+/*   margin-inline-end: 6px !important; */
+/* } */
